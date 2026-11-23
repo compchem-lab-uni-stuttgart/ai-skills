@@ -8,22 +8,24 @@ All skills live in one Claude Code plugin called `compchem`. Install it once and
 
 ## Install
 
-### Claude Code (CLI, VS Code, desktop app)
+### Claude Code (terminal, VS Code, desktop app)
 
-Run these two commands inside Claude Code:
+Run these two commands in a normal terminal. You don't need to download the repo first:
 
+```bash
+claude plugin marketplace add compchem-lab-uni-stuttgart/ai-skills
+claude plugin install compchem@ai-skills
 ```
-/plugin marketplace add compchem-lab-uni-stuttgart/ai-skills
-/plugin install compchem@ai-skills
-```
 
-Restart Claude Code afterwards. Skills then show up as `compchem:<skill-name>`. Claude uses them automatically, and you can also call one directly, e.g. `/compchem:pub-figures`.
+Then restart Claude Code (in VS Code: reload the window or open a new Claude chat). Skills show up as `compchem:<skill-name>`. Claude uses them automatically, and you can also call one directly, e.g. `/compchem:pub-figures`.
 
 To get the latest version:
 
+```bash
+claude plugin marketplace update ai-skills
 ```
-/plugin marketplace update ai-skills
-```
+
+If you use Claude Code in the terminal, the same commands also work there as `/plugin marketplace add ...` and `/plugin install ...`. The VS Code extension does not support `/plugin`.
 
 ### claude.ai and the Claude app
 
