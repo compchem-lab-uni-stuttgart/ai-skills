@@ -4,8 +4,8 @@
   "author": {
     "name": "Computer Chemistry Lab, University of Stuttgart"
   },
-  "homepage": "https://github.com/Computer-Chemistry-Lab-Uni-Stuttgart/ai-skills",
-  "repository": "https://github.com/Computer-Chemistry-Lab-Uni-Stuttgart/ai-skills",
+  "homepage": "https://github.com/compchem-lab-uni-stuttgart/ai-skills",
+  "repository": "https://github.com/compchem-lab-uni-stuttgart/ai-skills",
   "license": "MIT",
   "keywords": ["chemistry", "science", "matplotlib", "latex"]
 }

@@ -14,7 +14,7 @@ This repo is public, so everything you commit is visible to anyone.
 1. **Get the repo.**
 
    ```bash
-   git clone https://github.com/Computer-Chemistry-Lab-Uni-Stuttgart/ai-skills.git
+   git clone https://github.com/compchem-lab-uni-stuttgart/ai-skills.git
    cd ai-skills
    git switch -c add-<skill-name>
    ```

@@ -13,7 +13,7 @@ All skills live in one Claude Code plugin called `compchem`. Install it once and
 Run these two commands inside Claude Code:
 
 ```
-/plugin marketplace add Computer-Chemistry-Lab-Uni-Stuttgart/ai-skills
+/plugin marketplace add compchem-lab-uni-stuttgart/ai-skills
 /plugin install compchem@ai-skills
 ```
 
