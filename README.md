@@ -19,10 +19,11 @@ claude plugin install compchem@ai-skills
 
 Then restart Claude Code (in VS Code: reload the window or open a new Claude chat). Skills show up as `compchem:<skill-name>`. Claude uses them automatically, and you can also call one directly, e.g. `/compchem:pub-figures`.
 
-To get the latest version:
+To get the latest version, run these and restart Claude Code:
 
 ```bash
 claude plugin marketplace update ai-skills
+claude plugin update compchem@ai-skills
 ```
 
 If you use Claude Code in the terminal, the same commands also work there as `/plugin marketplace add ...` and `/plugin install ...`. The VS Code extension does not support `/plugin`.
@@ -39,11 +40,12 @@ Skills added this way do not update themselves. Upload the new version again whe
 
 | Skill | What it does |
 |---|---|
+| [contribute-skill](plugins/compchem/skills/contribute-skill/SKILL.md) | Adds your skill or subagent to this repo: copies it in, removes private details, checks and validates it, and opens a pull request. |
 | [pub-figures](plugins/compchem/skills/pub-figures/SKILL.md) | Publication-quality matplotlib figures: column-width sizing, vector PDF with embedded fonts, colorblind-safe colormaps, font checks before submission. |
 
 ## Contributing
 
-Anyone in the group can add a skill. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Anyone in the group can add a skill. With the plugin installed, the easiest way is to tell Claude something like "add my skill X to the group repo". The `contribute-skill` skill then walks through every step. The manual steps are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 This repo is **public**. Never commit unpublished results or data, API keys, passwords, or personal file paths.
 
