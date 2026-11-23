@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-skills",
+  "description": "Shared AI skills of the Computer Chemistry Lab, University of Stuttgart",
+  "owner": {
+    "name": "Computer Chemistry Lab, University of Stuttgart"
+  },
+  "plugins": [
+    {
+      "name": "compchem",
+      "description": "Skills for computational chemistry research: figures, writing, simulation workflows.",
+      "author": {
+        "name": "Computer Chemistry Lab, University of Stuttgart"
+      },
+      "source": "./plugins/compchem",
+      "category": "science",
+      "homepage": "https://github.com/Computer-Chemistry-Lab-Uni-Stuttgart/ai-skills"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "compchem",
+  "description": "Skills for computational chemistry research: figures, writing, simulation workflows.",
+  "author": {
+    "name": "Computer Chemistry Lab, University of Stuttgart"
+  },
+  "homepage": "https://github.com/Computer-Chemistry-Lab-Uni-Stuttgart/ai-skills",
+  "repository": "https://github.com/Computer-Chemistry-Lab-Uni-Stuttgart/ai-skills",
+  "license": "MIT",
+  "keywords": ["chemistry", "science", "matplotlib", "latex"]
+}
