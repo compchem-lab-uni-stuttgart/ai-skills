@@ -1,5 +1,7 @@
 # Adding a skill
 
+**Easiest way:** install the `compchem` plugin (see the [README](README.md)) and tell Claude "add my skill X to the group repo". The `contribute-skill` skill does the steps below for you and asks before anything goes public. The rest of this page is the manual route.
+
 ## Rules
 
 This repo is public, so everything you commit is visible to anyone.
@@ -40,9 +42,10 @@ This repo is public, so everything you commit is visible to anyone.
 
    Ask something that should trigger the skill and check that Claude uses it. You can also call it directly with `/compchem:<skill-name>`.
 
-5. **Validate.**
+5. **Check and validate.** The check script catches what the validator misses: a bad `name`, personal paths, emails, keys, and data files. Fix every ERROR and think about every WARN.
 
    ```bash
+   python3 plugins/compchem/skills/contribute-skill/scripts/check_skill.py plugins/compchem/skills/<skill-name>
    claude plugin validate .
    claude plugin validate plugins/compchem
    ```
