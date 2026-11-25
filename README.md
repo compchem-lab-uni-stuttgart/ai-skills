@@ -42,6 +42,7 @@ Skills added this way do not update themselves. Upload the new version again whe
 |---|---|
 | [contribute-skill](plugins/compchem/skills/contribute-skill/SKILL.md) | Adds your skill or subagent to this repo: copies it in, removes private details, checks and validates it, and opens a pull request. |
 | [pub-figures](plugins/compchem/skills/pub-figures/SKILL.md) | Publication-quality matplotlib figures: column-width sizing, vector PDF with embedded fonts, colorblind-safe colormaps, font checks before submission. |
+| [text-review](plugins/compchem/skills/text-review/SKILL.md) | Reviews a paper, thesis or SI file and writes every proposed change to a Markdown file, top to bottom, tagged by category, with three suggestions each; applies only the points you pick. |
 
 ## Contributing
 
