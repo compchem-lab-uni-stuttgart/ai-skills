@@ -40,6 +40,7 @@ Skills added this way do not update themselves. Upload the new version again whe
 
 | Skill | What it does |
 |---|---|
+| [chemshell](plugins/compchem/skills/chemshell/SKILL.md) | ChemShell + Turbomole + DL-FIND know-how: TS-search strategy (dimer, NEB, scans, P-RFO), restraint/Hessian/coordinate settings, indexing traps, instanton rates. |
 | [contribute-skill](plugins/compchem/skills/contribute-skill/SKILL.md) | Adds your skill or subagent to this repo: copies it in, removes private details, checks and validates it, and opens a pull request. |
 | [pub-figures](plugins/compchem/skills/pub-figures/SKILL.md) | Publication-quality matplotlib figures: column-width sizing, vector PDF with embedded fonts, colorblind-safe colormaps, font checks before submission. |
 
