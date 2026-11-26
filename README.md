@@ -42,6 +42,7 @@ Skills added this way do not update themselves. Upload the new version again whe
 |---|---|
 | [contribute-skill](plugins/compchem/skills/contribute-skill/SKILL.md) | Adds your skill or subagent to this repo: copies it in, removes private details, checks and validates it, and opens a pull request. |
 | [pub-figures](plugins/compchem/skills/pub-figures/SKILL.md) | Publication-quality matplotlib figures: column-width sizing, vector PDF with embedded fonts, colorblind-safe colormaps, font checks before submission. |
+| [socrates-learning](plugins/compchem/skills/socrates-learning/SKILL.md) | Leads a Socratic dialogue for learning: Claude only asks questions, one at a time, with short feedback, leads you from an example to your own reasoned position, and summarizes the correct facts at the end. |
 
 ## Contributing
 
